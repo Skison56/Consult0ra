@@ -164,14 +164,40 @@ header a:hover{
 
 }
 
-#caracteristicas .container{
+#habilidades .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 325px 12px;
 }
 
-#caracteristicas li{
+#habilidades h3 {
+    text-align: center;
+    padding: 10px 10px;
+}
+#habilidades li {
+    color: (30, 30, 30);
+    text-align: left;
     margin: 16px 0px;
     font-weight: bold;
+}
+
+#tecnologias .container{
+    background-color: rgb#0d3682;
+    text-align: center;
+    padding: 100px 12px;
+    height: 100%;
+    width: 100%;
+}
+
+#tecnologias h3 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 10px;
+}
+#tecnologias li img{
+    margin: 30px 0px;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
 }
 
 #final{
