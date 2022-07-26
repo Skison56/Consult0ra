@@ -41,7 +41,7 @@ button:hover{
 .color-acento{ color:blueviolet; }
 
 header{
-    background-color: rgb(0, 21, 255);
+    background-color: #ffc300;
     
 }
 
@@ -49,7 +49,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #000814;
     font-size: 1.6em;
 }
 
@@ -70,7 +70,7 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #000814;
 }
 
 header a:hover{
@@ -86,17 +86,17 @@ header a:hover{
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        #003566,
+        #003566
     )
-    ,url("Corporativa.png");
+    ,url("FondoNeon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 #hero h1{
-    color: white;
+    color: #ffd60a;
 }
 
 #hero button{
@@ -109,8 +109,8 @@ header a:hover{
 }
 
 #nuestros-programas{
-    background-color: rgb(30,30,30);
-    color: white;
+    background-color: #ffd60a;
+    color: #001d3d;
     text-align: center;
 }
 
@@ -118,13 +118,22 @@ header a:hover{
     padding: 200px 12px;
 }
 
-#nuestros-programas h2{
+#nuestros-programas .container .carta {
+    color: #ffc300;
+    padding: 50px 50px;
+}
+
+#nuestros-programas h3 {
     margin-top: 0;
-    font-size: 3.2em;
+    font-size: 2.5em;
 }
 
 #nuestros-programas p{
-    display: none;
+    color: #ffc300;
+}
+
+#nuestros-programas a{
+    color: #0d3682;
 }
 
 #nuestros-programas .carta{
@@ -136,31 +145,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("front-end.jpg");
-
+    background-color: #000000;
 }
 
 .carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("full-stack.jpg");
+    background-color: #000000;
 }
 
 .carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("python.jpg");
+    background-color: #000000;
 
 }
 
@@ -189,7 +182,7 @@ header a:hover{
 }
 
 #tecnologias h3 {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 10px;
 }
